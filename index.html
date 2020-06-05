@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="BeerSlider.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+            
+            <div id="beer-slider" class="beer-slider" data-beer-label="before">
+                <img src="photo/photo7.jpg" alt="Original - Man holding beer" style="width: 500px; " >
+                <div class="beer-reveal" data-beer-label="after" style="width: 500px; ">
+                <img src="photo/photo6.jpg" alt="Processed - Man holding beer" >
+                </div>
+            </div>
+            <div id="beer-slider1" class="beer-slider" data-beer-label="before">
+                <img src="photo/photo8.jpg" alt="Original - Man holding beer" style="width: 500px; " >
+                <div class="beer-reveal" data-beer-label="after" style="width: 500px; ">
+                <img src="photo/photo9.jpg" alt="Processed - Man holding beer" >
+                </div>
+            </div>
+    </div>   
+   
+        
+    
+      <script src="BeerSlider.js"></script>
+      <script>
+        var slider = new BeerSlider( document.getElementById( "beer-slider" ) );
+        var slider = new BeerSlider( document.getElementById( "beer-slider1" ) );
+        
+        
+      </script>
+    
+</body>
+</html>
