@@ -1,5 +1,4 @@
 .container {
-    overflow:scroll;
     max-width: 1200px;
     min-width: 500px;
     margin: auto;
@@ -10,5 +9,5 @@
 }
 
 body {
-    min-width: 500px;
+    min-width: 300px;
 }
